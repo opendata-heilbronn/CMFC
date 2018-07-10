@@ -3,6 +3,7 @@
 
 #define NUM_LEDS 4
 #define DATA_PIN 33
+#define BUS_ENABLE_PIN 2
 
 #define colorSaturation 16
 
@@ -17,6 +18,9 @@ RgbColor black(0);
 
 
 void ledSetup() {
+    pinMode(BUS_ENABLE_PIN, OUTPUT);
+    digitalWrite(BUS_ENABLE_PIN, LOW);
+
     strip.Begin();
     strip.Show();
 }
