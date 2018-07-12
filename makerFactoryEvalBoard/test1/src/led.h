@@ -5,15 +5,15 @@
 #define DATA_PIN 33
 #define BUS_ENABLE_PIN 2
 
-#define colorSaturation 16
+uint8_t colorSaturation = 16;
 
 NeoPixelBus<NeoGrbFeature, Neo800KbpsMethod> strip(NUM_LEDS, DATA_PIN);
 
-RgbColor red(colorSaturation, 0, 0);
-RgbColor green(0, colorSaturation, 0);
-RgbColor blue(0, 0, colorSaturation);
-RgbColor white(colorSaturation);
-RgbColor black(0);
+RgbColor red = RgbColor(colorSaturation, 0, 0);
+RgbColor green = RgbColor(0, colorSaturation, 0);
+RgbColor blue = RgbColor(0, 0, colorSaturation);
+RgbColor white = RgbColor(colorSaturation);
+RgbColor black = RgbColor(0);
 
 
 
