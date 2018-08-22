@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/harmoniemand/.platformio/penv/bin:/home/harmoniemand/.platformio/penv:/home/harmoniemand/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/sbin:/usr/sbin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
