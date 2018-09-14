@@ -1,0 +1,14 @@
+
+
+.motor {
+    position: absolute;
+}
+
+.motor.motor-4 {
+    top: 10px;
+    left: 10px;
+}
+
+.motor .meter {
+    transform: rotate(90deg);
+}

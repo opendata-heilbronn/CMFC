@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="tree-obj" src="cmfc.obj"></a-asset-item>
+        </a-assets>
+
+        <a-box rotation="0 0 0" position="0 0.2 0" depth="1" height="0.3" width="1" material="opacity: 0; color: red;" >
+            <!--
+            <a-animation attribute="rotation" dur="3000" to="360 360 360" repeat="infinite" easing="linear"></a-animation>
+            -->
+
+            <a-entity id="cmfc-model" 
+                      obj-model="obj: #tree-obj;" 
+                      scale="0.01 0.01 0.01" 
+                      position="-0.4 -0.545 -1.15" 
+                      rotation="0 0 -90" 
+                      material="color: #474747">
+            </a-entity>
+        </a-box>
+
+        <a-sky color="#ECECEC"></a-sky>
+        <!--<a-plane position="0 0 0" rotation="-90 0 0" width="20" height="20" color="#9fa3a8"></a-plane>-->
+
+        <a-light color="#ccc" position="1 1 0"></a-light>
+        <a-light type="ambient" color="#fff" angle="60"></a-light>
+
+        <a-entity position="-0.5 1 2" rotation="-30 0 0">
+            <a-camera></a-camera>
+        </a-entity>
+    </a-scene>
+
+    <script>
+        /* var i = 0;
+        window.setInterval(() => {
+            document.querySelector('#cmfc-model').setAttribute("rotation", i + " " + i + " " + i);
+            i++;
+        }, 10);
+    */
+    </script>
+</body>
+
+</html>

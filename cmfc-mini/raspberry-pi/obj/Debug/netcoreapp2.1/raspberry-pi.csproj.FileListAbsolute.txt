@@ -1,0 +1,4 @@
+/home/hmnd/code/CMFC/cmfc-mini/raspberry-pi/obj/Debug/netcoreapp2.1/raspberry-pi.csprojAssemblyReference.cache
+/home/hmnd/code/CMFC/cmfc-mini/raspberry-pi/obj/Debug/netcoreapp2.1/raspberry-pi.csproj.CoreCompileInputs.cache
+/home/hmnd/code/CMFC/cmfc-mini/raspberry-pi/obj/Debug/netcoreapp2.1/raspberry-pi.AssemblyInfoInputs.cache
+/home/hmnd/code/CMFC/cmfc-mini/raspberry-pi/obj/Debug/netcoreapp2.1/raspberry-pi.AssemblyInfo.cs

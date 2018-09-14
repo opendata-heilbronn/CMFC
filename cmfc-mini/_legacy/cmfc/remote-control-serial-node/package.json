@@ -1,0 +1,16 @@
+{
+  "name": "remote-control-serial-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "serialport": "^6.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
